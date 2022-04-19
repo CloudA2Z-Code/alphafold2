@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: self-hosted-agent-pool
+pool: self-hosted-agent-pool
 
 steps:
 - script: echo Hello, world!
